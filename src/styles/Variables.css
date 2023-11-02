@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'font-bold';
+    src: url('../assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'font-light';
+    src: url('../assets/fonts/Poppins-Light.ttf') format('truetype');
+}
+/****************************/
+/****************************/
+/****************************/
+:root {
+    --font-bold: 'font-bold', sans-serif;
+    --font-light: 'font-light', sans-serif;
+    --primary-1: #00a2ff;
+    --secondary-1: #ffffff;
+    --tertiary-1: #dfdfdf;
+    --black: #363636;
+}

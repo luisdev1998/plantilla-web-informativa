@@ -1,27 +1,10 @@
-@font-face {
-    font-family: 'font-bold';
-    src: url('../assets/fonts/Poppins-Bold.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'font-light';
-    src: url('../assets/fonts/Poppins-Light.ttf') format('truetype');
-}
-/****************************/
-/****************************/
-/****************************/
-:root {
-    --font-bold: 'font-bold', sans-serif;
-    --font-light: 'font-light', sans-serif;
-    --primary-1: #077c93;
-    --secondary-1: #ffffff;
-    --tertiary-1: #dfdfdf;
-    --black: #363636;
-}
-/****************************/
-/****************************/
-/****************************/
 *{
     font-family: var(--font-light);
+    color: var(--black);
+}
+/****************************/
+body{
+    background-color: var(--secondary-1);
 }
 /****************************/
 button{

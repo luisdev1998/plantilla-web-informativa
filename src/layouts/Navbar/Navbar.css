@@ -1,10 +1,10 @@
 nav{
     background-color: var(--primary-1);
-    color: var(--secondary-1);
     filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.20));
 }
 nav a{
     font-family: var(--font-bold);
+    color: var(--secondary-1);
 }
 nav .navbar-links{
     background-color: var(--primary-1);
