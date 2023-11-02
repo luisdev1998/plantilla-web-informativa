@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'font-bold';
+    src: url('../assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'font-light';
+    src: url('../assets/fonts/Poppins-Light.ttf') format('truetype');
+}
+/****************************/
+/****************************/
+/****************************/
+:root {
+    --font-bold: 'font-bold', sans-serif;
+    --font-light: 'font-light', sans-serif;
+    --primary-1: #0a9307;
+    --secondary-1: #ffffff;
+    --tertiary-1: #dfdfdf;
+}
+/****************************/
+/****************************/
+/****************************/
+*{
+    font-family: var(--font-light);
+}
+/****************************/
+nav{
+    background-color: var(--primary-1);
+    color: var(--secondary-1);
+    filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.20));
+}
+nav a{
+    font-family: var(--font-bold);
+}
+nav .navbar-links{
+    background-color: var(--primary-1);
+}
+/****************************/
+button{
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+/****************************/
+footer{
+    background-color: var(--primary-1);
+    color: var(--secondary-1);
+}
+/****************************/
+h1{
+    font-family: var(--font-bold);
+    filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.20));
+    color: var(--primary-1);
+    font-size: 2.5em;
+}
+h2{
+    font-family: var(--font-bold);
+    color: var(--primary-1);
+}
+h3{
+    font-family: var(--font-bold);
+    color: var(--primary-1);
+}
+/****************************/
+label{
+    font-family: var(--font-bold);
+    color: var(--primary-1);
+}
+/****************************/
+p{
+    font-family: var(--font-light);
+    color: var(--primary-2);
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+/****************************/
+i{
+    color: var(--primary-1);
+}
+/****************************/
+input{
+  all: unset;
+}
+/****************************/
+/****************************/
+/****************************/
+#menu i{
+    color: var(--secondary-1);
+}
+/****************************/
+/****************************/
+/****************************/
+.text-color-primary-1{
+    color: var(--primary-1);
+}
+.text-color-secondary-1{
+    color: var(--secondary-1);
+}
+.text-color-tertiary-1{
+    color: var(--tertiary-1);
+}
+.color-primary-1{
+    background-color: var(--primary-1);
+}
+.color-secondary-1{
+    background-color: var(--secondary-1);
+}
+.color-tertiary-1{
+    background-color: var(--tertiary-1);
+}
