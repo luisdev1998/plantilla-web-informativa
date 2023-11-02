@@ -1,3 +1,4 @@
+import './Navbar.css'
 import Button from "../../components/Button/Button"
 
 export default function Navbar(){

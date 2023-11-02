@@ -8,9 +8,8 @@ export default function Inicio(){
         <>
             <section className="flex column-direction vertical-center">
                 <div className="container-space">
-                    <h1 className="text-center">NUESTROS CLIENTES</h1>
-                </div>
-                <LogoCarousel>
+                    <h1 className="text-center">NUESTROS <span className="text-color-black">CLIENTES</span></h1>
+                    <LogoCarousel>
                     <li className="logo-item">
                         <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
                     </li>
@@ -54,6 +53,56 @@ export default function Inicio(){
                         <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
                     </li>
                 </LogoCarousel>
+                </div>
+            </section>
+            <section className="flex column-direction vertical-center color-primary-1">
+                <div className="container-space">
+                    <h1 className="text-center text-color-secondary-1">NUESTROS CLIENTES</h1>
+                    <LogoCarousel>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                    <li className="logo-item">
+                        <img src="https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png"/>
+                    </li>
+                </LogoCarousel>
+                </div>
             </section>
             <section className="flex horizontal-center">
                 <div className="container container-space">

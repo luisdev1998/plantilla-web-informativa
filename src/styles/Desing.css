@@ -12,27 +12,16 @@
 :root {
     --font-bold: 'font-bold', sans-serif;
     --font-light: 'font-light', sans-serif;
-    --primary-1: #0a9307;
+    --primary-1: #077c93;
     --secondary-1: #ffffff;
     --tertiary-1: #dfdfdf;
+    --black: #363636;
 }
 /****************************/
 /****************************/
 /****************************/
 *{
     font-family: var(--font-light);
-}
-/****************************/
-nav{
-    background-color: var(--primary-1);
-    color: var(--secondary-1);
-    filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.20));
-}
-nav a{
-    font-family: var(--font-bold);
-}
-nav .navbar-links{
-    background-color: var(--primary-1);
 }
 /****************************/
 button{
@@ -59,6 +48,10 @@ h2{
 h3{
     font-family: var(--font-bold);
     color: var(--primary-1);
+}
+/****************************/
+span{
+    font-family: var(--font-bold);
 }
 /****************************/
 label{
@@ -89,6 +82,9 @@ input{
 /****************************/
 /****************************/
 /****************************/
+.text-color-black{
+    color: var(--black);
+}
 .text-color-primary-1{
     color: var(--primary-1);
 }
@@ -97,6 +93,9 @@ input{
 }
 .text-color-tertiary-1{
     color: var(--tertiary-1);
+}
+.color-black{
+    color: var(--black);
 }
 .color-primary-1{
     background-color: var(--primary-1);
