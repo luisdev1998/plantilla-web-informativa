@@ -5,11 +5,18 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .card-primary i{
-    font-size: 4em
+    font-size: 4em;
+    color: var(--primary-2);
+}
+.card-primary h3{
+    color: var(--primary-2);
+}
+.card-primary p{
+    color: var(--primary-2);
 }
 
 .card-secondary{
-    background-color: var(--primary-1);
+    background-color: var(--primary-2);
     color: var(--secondary-1);
     padding: 20px;
     border-radius: 10px;
@@ -20,5 +27,8 @@
     font-size: 4em
 }
 .card-secondary h3{
+    color: var(--secondary-1);
+}
+.card-secondary p{
     color: var(--secondary-1);
 }
